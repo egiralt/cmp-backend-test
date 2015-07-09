@@ -84,5 +84,5 @@ It was decided for a generic model based on interfaces and inheritance to allow 
  
 **Generate reports**: The *import* application could be part of a daily or weekly batch.. in that case would be important to receive the process's feedback through email or HTML files with the full reports and logs.
 
-**Add exceptions and more *try/catch* **: The code is more design than implementation, OK.. but..
+**Add exceptions and more try/catch**: The code has more "design" than "implementation", OK.. but, ... code is code!
 
