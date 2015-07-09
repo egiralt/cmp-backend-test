@@ -2,13 +2,13 @@
 <?php
 /**
  **
- **
- **
  **/
  
 require (__DIR__ . '/vendor/autoload.php'); 
 
-//define ("__ROOT_PATH__", __DIR__);
+define ("__ROOT_PATH__", __DIR__);
+
+echo "Backend Test.\n by Ernesto Giralt\n\n";
 
 if (count($argv) > 1)
 {
