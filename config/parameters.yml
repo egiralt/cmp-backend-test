@@ -1,0 +1,21 @@
+# A file to include the "assignation" of processors and downloaders for each channel... 
+configuration:
+  channels:
+    glorf:
+      type: StandardChannel
+      processor:  GlorfProcessor
+      downloader: FileSystemDownloader
+      downloader_parameters: ["/feed-exports", ".glorf"]
+    flub:
+      type: StandardChannel
+      processor: XmlProcessor
+      downloader: FileSystemDownloader
+      downloader_parameters: ["/feed-exports", ".glorf"]
+  
+  store:
+    provider: MySQLProvider
+    channels: [glorf, flub]
+    
+      
+       
+      
