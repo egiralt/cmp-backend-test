@@ -67,7 +67,7 @@ It was decided for a generic model based on interfaces and inheritance to allow 
       type: StandardChannel
       processor: XmlProcessor
       downloader: FileSystemDownloader
-      downloader_parameters: ["/feed-exports", ".glorf"]
+      downloader_parameters: ["/feed-exports", ".flub"]
   
   store:
     provider: MySQLProvider
